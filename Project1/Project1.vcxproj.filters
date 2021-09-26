@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="test\future_test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\macro_test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\rwlock.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\set.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\sigsegv.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\string_parse.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\thread.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\thread_pool.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\threadlocal.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\union_test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\unique_lock.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\file_test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\type_cast.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\socket.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="test\file_test.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\future_test.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\macro_test.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\rwlock.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\string_parse.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\test.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\thread.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\thread_pool.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\threadlocal.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\union_test.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\unique_lock.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\type_cast.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\socket.h">
+      <Filter>test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="test">
+      <UniqueIdentifier>{0f97f942-a66e-4172-90d2-108b55a70bad}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
